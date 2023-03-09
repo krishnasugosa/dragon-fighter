@@ -27,7 +27,7 @@ function bt() {
 		if (parseInt(document.getElementsByClassName("bullet")[i].style.left) > 58) {
 			document.getElementsByClassName("bullet")[i].remove();
 			dragon_life = dragon_life - 4;
-			document.getElementById("DragonLife").value= dragon_life;
+			document.getElementById("DragonLife").value = dragon_life;
 		}
 	}
 	if (dragon_life < 1) {
