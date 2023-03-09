@@ -28,7 +28,7 @@ function bt() {
 			document.getElementsByClassName("bullet")[i].remove();
 			dragon_life = dragon_life - 4;
 			document.getElementById("DragonLife").value= dragon_life;
-		
+		}
 	}
 	if (dragon_life < 1) {
 		window.location ="won.html";
