@@ -19,7 +19,7 @@ function fire() {
 	},2000);
 }
 your_life=100;
-dragon_life = 100;
+dragon_life = 155;
 function bt() {
 	for (var i=0; i < document.getElementsByClassName("bullet").length; i++) {
 		document.getElementsByClassName("bullet")[i].style.left=parseInt(document.getElementsByClassName("bullet")[i].style.left)+2+"%";
